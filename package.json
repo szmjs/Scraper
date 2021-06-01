@@ -1,0 +1,22 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "lint": "./node_modules/.bin/eslint *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "latest",
+    "node-schedule": "latest",
+    "puppeteer": "latest",
+    "puppeteer-core": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest"
+  }
+}
